@@ -11,7 +11,7 @@ import {
  * responseMap that takes a unique id and attaches the corresponding resolve function.
  */
 
-const RESPONSE_TIMEOUT = 10000;
+const RESPONSE_TIMEOUT = 1000000;
 const responseMap = new Map();
 let listenerAdded = false;
 
